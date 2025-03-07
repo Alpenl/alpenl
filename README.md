@@ -8,6 +8,7 @@
 - 👯 期待与优秀的开发者合作
 - 💬 欢迎与我交流技术话题
 - 🌱 持续学习，无限进步
+- 📄 查看我的[简历](resume-zh.tex)
 
 ## 技能树 🚀
 
@@ -19,7 +20,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
-[![Alpenl's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=alpenl&bg_color=f0f0f0&color=2a1428&line=1b131a&point=5f5353&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Alpen's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=alpenl&bg_color=f0f0f0&color=2a1428&line=1b131a&point=5f5353&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ## 联系我 📫
 

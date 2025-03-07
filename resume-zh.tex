@@ -1,0 +1,167 @@
+%%
+%% Copyright (c) 2025 Yang Yuyang <3311432144@qq.com>
+%% CC BY 1.0 License
+%%
+%% Created: 2025-03
+%%
+
+% Chinese version
+\documentclass[zh]{resume}
+
+% File information shown at the footer of the last page
+\fileinfo{%
+  \faCopyright{} 2024--2025 \hspace{0.5em}
+  \creativecommons{by}{1.0} \hspace{0.5em}
+  \githublink{Alpenl}{alpenl} \hspace{0.5em}
+  \faEdit{} \today
+}
+
+\name{宇阳}{杨}
+
+\keywords{Java, Spring, 微服务, 全栈开发, Vue, Python, Linux, 分布式系统}
+
+\profile{
+  \mobile{155-2519-9072}
+  \email{3311432144@qq.com}
+  \github{alpenl} \\
+  \university{中北大学}
+  \degree{软件工程 \textbullet 学士}
+  \birthday{2002-12-17}
+  \address{太原}
+  % Custom information:
+  % \icontext{<icon>}{<text>}
+  % \iconlink{<icon>}{<link>}{<text>}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary & Objectives
+%======================================================================
+\begin{abstract}
+中北大学软件工程专业Java方向在读学生，具备扎实的计算机基础知识和丰富的项目开发经验。
+熟练使用Java开发后台项目，基本了解Spring Cloud微服务架构。
+独立完成多个完整项目，擅长解决复杂业务场景下的技术难题。
+掌握前后端分离开发模式，精通Vue.js框架和RESTful API设计。
+熟悉Linux环境部署和Docker容器化技术，具备CI/CD流程实践经验。
+%%热衷开源社区贡献，在\link{https://github.com/Alpenl}{GitHub}上分享多个高质量项目，
+维护个人技术博客\link{https://blog.alpen-y.top}{blog.alpen-y.top}记录技术心得。
+对新技术保持高度热情，致力于在ai时代成为全栈技术专家。
+\end{abstract}
+
+%======================================================================
+\sectionTitle{技能和语言}{\faWrench}
+%======================================================================
+\begin{competences}
+  \comptence{操作系统}{%
+    \icon{\faUbuntu} Linux，
+    \icon{\faWindows} Windows
+  }
+  \comptence{编程语言}{%
+    Java, Python, JavaScript, HTML/CSS
+  }
+  \comptence{框架技术}{%
+  Spring Boot, Vue.js, Flask, jQuery, Spring Cloud
+  }
+  \comptence{开发工具}{%
+    SSH, Git, Docker, WSL, VS Code, IntelliJ IDEA, GitHub Actions
+  }
+  \comptence{系统运维}{%
+    PVE, 宝塔面板, 1panal, DevOps
+  }
+    \comptence{数据库}{%
+    MySQL, Redis, PolarDB, InfluxDB
+  }
+
+\end{competences}
+
+%======================================================================
+\sectionTitle{教育背景}{\faGraduationCap}
+%======================================================================
+\begin{educations}
+  \education%
+    {2022.09}%
+    [至今]%
+    {中北大学}%
+    {软件学院}%
+    {软件工程 (Java方向)}%
+    {学士学位在读, GPA: 3.1/4.0, 专业排名: 前10\%}
+\end{educations}
+
+%======================================================================
+\sectionTitle{计算机技能}{\faCogs}
+%======================================================================
+\begin{itemize}
+  \item \textbf{后端开发}：
+    精通Spring Boot框架进行企业级后端开发，掌握RESTful API设计最佳实践，
+    了解Spring Cloud Alibaba微服务架构及Nacos、Gateway、Feign等组件，
+    有MySQL索引优化和Redis缓存策略经验
+  
+  \item \textbf{前端开发}：
+    熟练使用Vue.js构建现代化单页应用(SPA)，掌握组件化和状态管理，
+    比较熟悉HTML5、CSS3、JavaScript ES6+语法，
+    能使用现代框架实现响应式布局和前端性能优化，提升用户体验
+  
+  \item \textbf{运维部署}：
+    熟悉Linux系统管理和Shell脚本编写，掌握Docker容器化应用部署，
+    具备Nginx反向代理和负载均衡配置经验，
+    能使用GitHub Actions实现自动化CI/CD流程
+  
+  \item \textbf{开发工具}：
+    熟悉Git版本控制工作流，熟练使用分支管理策略，
+    掌握VS Code、IntelliJ IDEA等现代开发工具的高级功能，
+    具备WSL跨平台开发环境配置能力
+
+\end{itemize}
+
+%======================================================================
+\sectionTitle{项目经验}{\faCode}
+%======================================================================
+\begin{itemize}
+  \item \textbf{云岗后台管理系统}:
+    (企业级项目开发, SpringBoot, Vue, JeecgBoot)
+    \begin{itemize}
+      \item 项目集成github开源项目完成发票识别模块开发，提升数据录入效率75\%
+      \item 设计并实现基于Ant Design Vue的响应式管理界面，支持多端适配，用户操作流畅度提升50\%
+      \item 开发角色管理，合作基地管理模块，支持角色编辑、基地信息维护等功能
+      \item 解决多个复杂业务场景的技术难点，获得项目负责人的高度评价
+    \end{itemize}
+
+  \item \link{https://github.com/Alpenl/Blog}{\textbf{wake NUC}}:
+    (个人项目, Python, Uniapp)
+    \begin{itemize}
+%%      \item 大规模重构设计，累计用户300+，日活跃用户80+
+      \item 前端使用Uniapp框架实现一套代码多端部署，覆盖微信小程序和H5两个平台
+      \item 后端采用Python Flask框架构建RESTful API，实现课表查询接口响应时间<200ms
+      \item 优化数据缓存策略，查询请求性能提升65\%，服务器资源占用减少50\%
+      \item 独立完成需求分析、架构设计、编码实现、测试部署全流程，培养了全栈开发能力
+    \end{itemize}
+    
+    \item \link{https://github.com/Alpenl/alpenl}{\textbf{resume}}:
+    (个人项目, LaTeX):
+    \begin{itemize}
+      \item 个人简历，本项目LaTeX模板，使用\link{https://github.com/billryan/resume}{\textbf{billryan/resume}}作为基础模板, 并在此基础上进行修改和优化，使简历更加美观和易于阅读。
+    \end{itemize}
+  
+  \item \link{https://github.com/Alpenl/Blog}{\textbf{个人博客系统}}:
+    (个人项目, vitepress):
+    \begin{itemize}
+      \item 基于vitepress打造高性能静态博客，使用vue组件开发自定义功能，Google Lighthouse性能得分95+
+      \item 自定义主题和插件，实现文章管理、笔记系统、分类归档、Markdown增强、代码复制、全文检索等功能，提升用户体验
+      \item 采用GitHub Actions实现提交即发布的CI/CD流程，部署时间从15分钟减少至3分钟
+      \item 集成Giscus评论系统，增强用户互动\%
+    \end{itemize}
+  
+  \item \textbf{四方保险平台}:
+    (学习项目, Spring Cloud, MySQL, InfluxDB):
+    \begin{itemize}
+      \item 学习黑马程序员项目四方保险，基于微服务架构的保险业务系统开发
+      \item 完成支付模块开发，集成第三方支付接口，确保交易安全性和数据一致性
+      \item 实现基于InfluxDB的业务数据分析系统，支持多维度数据可视化展示
+      \item 优化服务间通信策略，解决分布式事务一致性问题，提升系统稳定性\%
+    \end{itemize}
+\end{itemize}
+
+
+\end{document}
